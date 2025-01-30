@@ -1,0 +1,11 @@
+imblearn
+pymongo
+pip-chill
+python-dotenv
+xgboost
+pandas
+PyYAML
+numpy
+scikit-learn
+dill
+-e .

@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "insurance"
+version = "0.1.0"
+description = "A project related to managing and processing US Visa applications."
+readme = "README.md"
+license = { text = "MIT" }  # Replace with your project's actual license.
+authors = [
+    { name = "Anjali", email = "anjali16@gmail.com" }
+]
+keywords = ["insurance", "premium", "applications", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = [
+    "pandas",     # Example runtime dependency.
+    "imblearn",
+    "pip-chill",
+    "xgboost",
+    "PyYAML",
+    "numpy",
+    "scikit-learn"
+   
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["insurance*"]
+

@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: insurance
+Version: 0.1.0
+Summary: A project related to managing and processing US Visa applications.
+Author-email: Anjali <anjali16@gmail.com>
+License: MIT
+Keywords: insurance,premium,applications,automation
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: imblearn
+Requires-Dist: pip-chill
+Requires-Dist: xgboost
+Requires-Dist: PyYAML
+Requires-Dist: numpy
+Requires-Dist: scikit-learn

@@ -1,0 +1,3 @@
+my_env/
+*.log        # Ignores all .log files
+*.csv        # Ignores all .csv files
